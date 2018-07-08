@@ -14,5 +14,24 @@
 
 
 <ion-content padding>
+  <ion-grid>
+    <ion-row>
+      <ion-item>
+        <ion-label color="primary" stacked>Enter Username</ion-label>
+        <ion-input type="text" placeholder="Username"></ion-input>
+      </ion-item>
+    </ion-row>
+    <ion-row>
+      <ion-item>
+        <ion-label color="primary" stacked>Enter Password</ion-label>
+        <ion-input type="text" placeholder="Password"></ion-input>
+      </ion-item>
+    </ion-row>
+    <ion-row>
+      <ion-col center text-center>
+        <button ion-button (click)="log()">Login</button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
 </ion-content>

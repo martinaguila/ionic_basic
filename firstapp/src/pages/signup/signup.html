@@ -7,12 +7,42 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title text-center>Signup Page</ion-title>
+    <ion-title text-center color="secondary">Signup Page</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
-
+  <ion-row>
+      <ion-list>
+        <ion-item>
+          <ion-label color="secondary">First Name</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-list>
+      <ion-list>
+          <ion-item>
+            <ion-label color="secondary">Last Name</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+      </ion-list>
+      <ion-list>
+        <ion-item>
+          <ion-label color="secondary">Username</ion-label>
+          <ion-input></ion-input>
+        </ion-item>
+      </ion-list>
+        <ion-list>
+          <ion-item>
+            <ion-label color="secondary">Password</ion-label>
+            <ion-input></ion-input>
+          </ion-item>
+        </ion-list>
+  </ion-row>
+  <ion-row>
+    <ion-col center text-center>
+        <button ion-button (click)="sign()">Sign Up</button>
+    </ion-col> 
+  </ion-row>
 </ion-content>
